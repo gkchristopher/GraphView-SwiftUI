@@ -13,6 +13,8 @@
 		5D47F44323EAEDCF0084EA47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D47F44223EAEDCF0084EA47 /* Assets.xcassets */; };
 		5D47F44623EAEDCF0084EA47 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D47F44523EAEDCF0084EA47 /* Preview Assets.xcassets */; };
 		5D47F44923EAEDCF0084EA47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D47F44723EAEDCF0084EA47 /* LaunchScreen.storyboard */; };
+		5D47F45123EB03600084EA47 /* KeyboardObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D47F45023EB03600084EA47 /* KeyboardObserver.swift */; };
+		5D47F45323EB08F50084EA47 /* KeyboardAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D47F45223EB08F50084EA47 /* KeyboardAdapter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		5D47F44523EAEDCF0084EA47 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5D47F44823EAEDCF0084EA47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D47F44A23EAEDCF0084EA47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D47F45023EB03600084EA47 /* KeyboardObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardObserver.swift; sourceTree = "<group>"; };
+		5D47F45223EB08F50084EA47 /* KeyboardAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAdapter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				5D47F44723EAEDCF0084EA47 /* LaunchScreen.storyboard */,
 				5D47F44A23EAEDCF0084EA47 /* Info.plist */,
 				5D47F44423EAEDCF0084EA47 /* Preview Content */,
+				5D47F45023EB03600084EA47 /* KeyboardObserver.swift */,
+				5D47F45223EB08F50084EA47 /* KeyboardAdapter.swift */,
 			);
 			path = GraphViewTest;
 			sourceTree = "<group>";
@@ -147,7 +153,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D47F43D23EAEDCC0084EA47 /* AppDelegate.swift in Sources */,
+				5D47F45323EB08F50084EA47 /* KeyboardAdapter.swift in Sources */,
 				5D47F43F23EAEDCC0084EA47 /* SceneDelegate.swift in Sources */,
+				5D47F45123EB03600084EA47 /* KeyboardObserver.swift in Sources */,
 				5D47F44123EAEDCC0084EA47 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
