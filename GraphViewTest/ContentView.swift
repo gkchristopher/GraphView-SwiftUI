@@ -37,7 +37,6 @@ struct ContentView: View {
                                        cgfloatValue(for: point5),
                                        cgfloatValue(for: point6)])
                         .frame(height: CGFloat(300.0))
-
                 }
                 Section {
                     TextField("Point 0", text: $point0)
@@ -94,9 +93,11 @@ struct GraphView: View {
                         ZStack(alignment: .bottom) {
                             RoundedRectangle(cornerRadius: 12)
                                 .fill(Color(red: 0.2, green: 0.2, blue: 0.2))
-                            RoundedRectangle(cornerRadius: 12)
-                                .fill(Color.blue)
-                                .frame(height: geo.size.height * value)
+                            if value > CGFloat.zero {
+                                RoundedRectangle(cornerRadius: 12)
+                                    .fill(Color.blue)
+                                    .frame(height: geo.size.height * value)
+                            }
                         }
                     }
                     Text(self.display(for: value))
